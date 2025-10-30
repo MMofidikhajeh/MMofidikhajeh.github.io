@@ -1,7 +1,3 @@
----
-title: Mohammad Mofidikhajeh
----
-
 # Data Scientist
 
 ## Summary
