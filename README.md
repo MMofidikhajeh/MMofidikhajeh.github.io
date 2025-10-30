@@ -24,32 +24,32 @@ BABOL UNIVERSITY OF MEDICAL SCIENCES - BABOL
 +	Exposure to healthcare systems and data handling, particularly in cancer treatment research.
 
 ### Technical Skills
-* ++Languages:++
+* _Languages:_
   - Python(Proficient)
   - SQL(Basic)
   - Git(Basic)
-* ++Machine Learning and Deep Learning:++
+* _Machine Learning and Deep Learning:_
   - Supervised Learning: Logistic Regression, SVM, Decision Trees, Random Forest, Gradient Boosting
   - Unsupervised Learning: K-Means, Spectral Clustering, UMAP
   - Deep Learning: CNNs, RNNs, Transformers, U-Net architectures
   - Model Evaluation & Optimization: Hyperparameter tuning, cross-validation, regularization
   - Advanced Techniques: Knowledge Distillation, Composite Loss Functions, Triplet Loss
-* ++Data Analysis:++
+* _Data Analysis:_
   - Data Manipulation: Pandas, NumPy
   - Data Visualization: Matplotlib, Seaborn
   - Statistical Analysis: Hypothesis testing, correlation analysis
-* ++Frameworks and Libraries:++
+* _Frameworks and Libraries:_
   - ML/DL Frameworks: PyTorch, Scikit-Learn, Hugging Face
   - Data Tools: SQLite, Git
   - Computer Vision: OpenCV
   - Web Applications: Streamlit
 
 ### Certificates
-[Data Manipulation with Pandas](https://www.kaggle.com/learn/certification/mmofidi/pandas)      1402
-[Intermediate Machine Learning](https://www.kaggle.com/learn/certification/mmofidi/intermediate-machine-learning)      1403
+[Data Manipulation with Pandas](https://www.kaggle.com/learn/certification/mmofidi/pandas) - 1402 \\ 
+[Intermediate Machine Learning](https://www.kaggle.com/learn/certification/mmofidi/intermediate-machine-learning) - 1403
 
 ### Socials
-[Github](https://github.com/MMofidikhajeh)
+[Github](https://github.com/MMofidikhajeh) \\ 
 [Linkedin](https://www.linkedin.com/in/mohammad-mofidikhajeh)
 
 ### Language Skills
