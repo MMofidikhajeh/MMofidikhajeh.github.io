@@ -1,4 +1,4 @@
-# Data Scientist
+## Data Scientist
 ### Summary
 Data scientist bridging radiation therapy expertise with advanced deep learning, specializing in the design, training, and optimization of neural network architectures (U-Net, CNNs, RNNs, Transformers). Skilled in model evaluation, feature engineering, knowledge distillation, and model compression. Proficient in Python, PyTorch, Scikit-learn, and pandas, with a strong ability to build reproducible pipelines and deliver actionable insights from data. Currently completing a Master's in Computer Science (Data Mining), focusing on advanced model architectures and performance optimization.
 
