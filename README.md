@@ -9,6 +9,7 @@ Deep Learning (CNNs, RNNs, U-Net, Transformers);    Model Optimization;    Knowl
 #### MASTER’S DEGREE IN COMPUTER SCIENCE – DATA MINING |
 TARBIAT MODARES UNIVERSITY – TEHRAN
 1403 – (EXPECTED GRADUATION 1406)
+
 In third semester studying Computer Science (Data Mining)
 Relevant Coursework:
 +	Deep Learning: MLPs, CNNs, RNNs, Transformers; implementation in PyTorch for image classification, segmentation, and sequence tasks
