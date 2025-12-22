@@ -9,7 +9,7 @@ Deep Learning (CNNs, RNNs, U-Net, Transformers);    Model Optimization;    Knowl
 ## Education
 ### MASTER’S DEGREE IN COMPUTER SCIENCE – DATA MINING |
 TARBIAT MODARES UNIVERSITY – TEHRAN
-1403 – (EXPECTED GRADUATION 1406)
+2024 – (EXPECTED GRADUATION 2026)
 
 In third semester studying Computer Science (Data Mining)
 Relevant Coursework:
@@ -20,10 +20,10 @@ Relevant Coursework:
 
 ### BACHELOR’S DEGREE IN RADIATION THERAPY |
 BABOL UNIVERSITY OF MEDICAL SCIENCES - BABOL
-1399 – 1403		GPA: 17.4
-+	Participated in a cohort study on cancer patients, managing and entering psychological data using SPSS software.
-+	Developed strong analytical and problem-solving skills through clinical practice and patient data management.
-+	Exposure to healthcare systems and data handling, particularly in cancer treatment research.
+2020 – 2024		GPA: 17.4
++ Participated in a cohort study on cancer patients, managing and entering psychological data using SPSS software.
++ Exposure to healthcare systems and data handling, particularly in cancer treatment research.
++ Worked in clinical environment as a radiation therapy specialist for two semesters.
 
 ## Technical Skills
 * _Languages:_
@@ -47,16 +47,19 @@ BABOL UNIVERSITY OF MEDICAL SCIENCES - BABOL
   - Web Applications: Streamlit
 
 ## Certificates
-[Data Manipulation with Pandas](https://www.kaggle.com/learn/certification/mmofidi/pandas) - 1402 \\ 
-[Intermediate Machine Learning](https://www.kaggle.com/learn/certification/mmofidi/intermediate-machine-learning) - 1403
+[Intermediate Machine Learning](https://www.kaggle.com/learn/certification/mmofidi/intermediate-machine-learning) - 1403 \\
+[Data Manipulation with Pandas](https://www.kaggle.com/learn/certification/mmofidi/pandas) - 1402 \\
+SAT 1490/1600 - 2022
+
+## Language Skills
++ English - Advanced (Toefl 111/120)
++ Persian – Native
+
 
 ## Socials
 [Github](https://github.com/MMofidikhajeh) \\ 
 [Linkedin](https://www.linkedin.com/in/mohammad-mofidikhajeh)
 
-## Language Skills
-+ English - Advanced (Toefl 111/120)
-+ Persian – Native
 
 ## Projects
 ### [U-net Reconstruction with Knowledge Distillation](https://github.com/MMofidikhajeh/Unet_Reconstruction_Knowledge_Distillation)
@@ -64,7 +67,6 @@ BABOL UNIVERSITY OF MEDICAL SCIENCES - BABOL
 +	Implemented composite loss function (MSE + feature distillation + fuzzy normalized cut loss) to improve performance
 +	Utilized pre-trained VGG11 as teacher model to guide learning process
 +	Achieved strong performance metrics: PSNR of 23.23 dB and SSIM of 0.859 on CIFAR-10 dataset, performing well considering the low epoch runtime of the model
-+	Demonstrated advanced understanding of deep learning concepts including multi-task learning and model compression
 +	Technologies: PyTorch, U-Net, Knowledge Distillation, VGG11, Composite Loss Functions
 
 ### [Deep Learning Foundations](https://github.com/MMofidikhajeh/Deep_Learning_Foundations)
@@ -72,21 +74,18 @@ BABOL UNIVERSITY OF MEDICAL SCIENCES - BABOL
 +	Developed and tested multiple MLP configurations on MNIST dataset, analyzing effects of hidden layers, neurons, and activation functions
 +	Built 2-layer CNN with pointwise convolution for efficient MNIST classification achieving 82% accuracy in 25 epochs
 +	Successfully implemented SVM and SVR as neural networks with 88% accuracy and 0.2233 MSE respectively
-+	Demonstrated understanding of non-linear modeling and architecture optimization
 +	Technologies: PyTorch, CNN, MLP, SVM/SVR, Neural Networks
 
 ### [Classification with Confusion Analysis using UMAP](https://github.com/MMofidikhajeh/Confusion_Triplet_Umap)
 +	Built CNN classifiers with cross-entropy and triplet loss, achieving 84% accuracy on MNIST in 30 epochs.
 +	Performed comprehensive confusion matrix analysis to identify frequently confused digit pairs (classes 2 & 5)
 +	Implemented UMAP dimensionality reduction for visualizing feature embeddings and analyzing class separation
-+	Demonstrated advanced understanding of feature extraction, model evaluation, and data visualization
 +	Technologies: PyTorch, CNN, Triplet Loss, UMAP, Confusion Matrix Analysis
 
 ### [Superstore Sales Data Analysis](https://github.com/MMofidikhajeh/Superstore_Analysis)
 +	Conducted full data cleaning, preprocessing, EDA, and clustering on 10k+ sales records.
 +	Used K-Means to segment customers into 3 key behavioral clusters, supporting targeted marketing.
 +	Developed data visualizations and insights to support targeted marketing strategies
-+	Showcased full data science pipeline from raw data to insights and recommendations
 +	Technologies: Python, Pandas, Matplotlib, Scikit-Learn, K-means Clustering
 
 ### [Model Separability and Noisy Data Classification](https://github.com/MMofidikhajeh/LinSep_Noise_Classify_Test)
