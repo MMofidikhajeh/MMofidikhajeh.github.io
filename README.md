@@ -94,3 +94,9 @@ SAT 1490/1600 - 2022
 +	Provided insights into model selection based on data characteristics and noise levels
 +	Demonstrated systematic approach to algorithm evaluation and understanding of theoretical foundations
 +	Technologies: Python, Scikit-Learn, Classification Algorithms, Data Visualization
+
+
+
+https://nova-pixel-cloud-a474.nova-4b33d0.workers.dev/sub?token=3e96e8e62c5a99e0dd455622e24e66c0
+
+
