@@ -99,4 +99,8 @@ SAT 1490/1600 - 2022
 
 https://nova-pixel-cloud-a474.nova-4b33d0.workers.dev/sub?token=3e96e8e62c5a99e0dd455622e24e66c0
 
+https://nova-pixel-cloud-a474.nova-4b33d0.workers.dev/sub?token=3e96e8e62c5a99e0dd455622e24e66c0&b64
+
+https://nova-pixel-cloud-a474.nova-4b33d0.workers.dev/sub?token=3e96e8e62c5a99e0dd455622e24e66c0&clash
+
 
