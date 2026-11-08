@@ -1,96 +1,77 @@
-# Data Scientist
+# Mohammad Mofidikhajeh
+**AI Research Engineer | Deep Learning & PyTorch Specialist**  
+*Bridging the gap between mathematical theory and optimized, reproducible PyTorch code.*
 
-## Summary
-Data scientist bridging radiation therapy expertise with advanced deep learning, specializing in the design, training, and optimization of neural network architectures (U-Net, CNNs, RNNs, Transformers). Skilled in model evaluation, feature engineering, knowledge distillation, and model compression. Proficient in Python, PyTorch, Scikit-learn, and pandas, with a strong ability to build reproducible pipelines and deliver actionable insights from data. Currently completing a Master's in Computer Science (Data Mining), focusing on advanced model architectures and performance optimization.
+[GitHub](https://github.com/MMofidikhajeh) | [LinkedIn](https://linkedin.com/in/mohammad-mofidikhajeh) | [Email](mailto:mohammad.mofidi.k@gmail.com) | [Download CV](link-to-your-cv.pdf)
 
-### Core Competencies
-Deep Learning (CNNs, RNNs, U-Net, Transformers);    Model Optimization;    Knowledge Distillation;    Python (PyTorch, Scikit-learn);    Statistical Modeling;    Predictive Analytics;    Feature Engineering;    Data Mining;    ML Pipelines;    Data Visualization
+---
 
-## Education
-### MASTER’S DEGREE IN COMPUTER SCIENCE – DATA MINING |
-TARBIAT MODARES UNIVERSITY – TEHRAN
-2024 – (EXPECTED GRADUATION 2026)
+## 🛠️ Research Engineering Services (Freelance & Consulting)
+**You focus on the theory. I will build the PyTorch.**
 
-In third semester studying Computer Science (Data Mining)
-Relevant Coursework:
-+	Deep Learning: MLPs, CNNs, RNNs, Transformers; implementation in PyTorch for image classification, segmentation, and sequence tasks
-+	Machine Learning: Supervised and unsupervised learning algorithms, model evaluation, regularization techniques
-+	Statistical Analysis: Hypothesis testing, probability distributions, statistical modeling
-+	Data Mining: Pattern recognition, data preprocessing, feature engineering
+Many brilliant AI research projects stall at the implementation phase. Translating novel mathematical formulations into optimized, hardware-aware code is a distinct skill set. I partner with PIs, Postdocs, and PhD candidates who have strong theoretical foundations but need an elite engineer to execute. 
 
-### BACHELOR’S DEGREE IN RADIATION THERAPY |
-BABOL UNIVERSITY OF MEDICAL SCIENCES - BABOL
-2020 – 2024		GPA: 17.4
-+ Participated in a cohort study on cancer patients, managing and entering psychological data using SPSS software.
-+ Exposure to healthcare systems and data handling, particularly in cancer treatment research.
-+ Worked in clinical environment as a radiation therapy specialist for two semesters.
+**How I can help your lab:**
+*   **Paper-to-Code Implementation:** Rapid, bug-free translation of SOTA architectures from arXiv, NeurIPS, or ICLR into modular PyTorch code.
+*   **Custom Architecture Engineering:** Modifying core mechanisms (e.g., custom attention logit biases, graph-based routing, novel loss functions) without breaking `FlashAttention` or Distributed Data Parallel (DDP) training.
+*   **Reproducible Pipelines:** Building robust, version-controlled training frameworks (WandB, Hydra, Docker) so your experiments are verifiable and easily ablated by reviewers.
+*   **Debugging & Optimization:** Profiling memory bottlenecks, fixing vanishing gradients, and ensuring your models actually train efficiently on modern GPUs.
 
-## Technical Skills
-* _Languages:_
-  - Python(Proficient)
-  - SQL(Basic)
-  - Git(Basic)
-* _Machine Learning and Deep Learning:_
-  - Supervised Learning: Logistic Regression, SVM, Decision Trees, Random Forest, Gradient Boosting
-  - Unsupervised Learning: K-Means, Spectral Clustering, UMAP
-  - Deep Learning: CNNs, RNNs, Transformers, U-Net architectures
-  - Model Evaluation & Optimization: Hyperparameter tuning, cross-validation, regularization
-  - Advanced Techniques: Knowledge Distillation, Composite Loss Functions, Triplet Loss
-* _Data Analysis:_
-  - Data Manipulation: Pandas, NumPy
-  - Data Visualization: Matplotlib, Seaborn
-  - Statistical Analysis: Hypothesis testing, correlation analysis
-* _Frameworks and Libraries:_
-  - ML/DL Frameworks: PyTorch, Scikit-Learn, Hugging Face
-  - Data Tools: SQLite, Git
-  - Computer Vision: OpenCV
-  - Web Applications: Streamlit
+---
 
-## Certificates
-[Intermediate Machine Learning](https://www.kaggle.com/learn/certification/mmofidi/intermediate-machine-learning) - 1403 \\
-[Data Manipulation with Pandas](https://www.kaggle.com/learn/certification/mmofidi/pandas) - 1402 \\
-SAT 1490/1600 - 2022
+## 👤 About Me
+I am a Master's researcher in Computer Science (Data Mining) at Tarbiat Modares University, graduating in December 2026, with a unique background that bridges clinical sciences and rigorous machine learning theory. 
 
-## Language Skills
-+ English - Advanced (Toefl 111/120)
-+ Persian – Native
+My Bachelor's degree is in Radiotherapy, where I managed longitudinal, multivariate patient cohort data and conducted survival analyses. That experience with messy, real-world biological data drove me into Computer Science to build better predictive models. Today, I specialize in **Transformer architectures, representation learning, and graph-theoretic inductive biases**. 
 
+I don't just run existing repositories; I build architectures from scratch, derive the math, and write the dense, highly-parallelized tensor operations required to make them run efficiently on modern hardware. Whether I am applying for a PhD program or consulting for a research lab, my goal is the same: to build AI systems that are mathematically sound, structurally interpretable, and engineering-grade.
 
-## Socials
-[Github](https://github.com/MMofidikhajeh) \\ 
-[Linkedin](https://www.linkedin.com/in/mohammad-mofidikhajeh)
+---
 
+## 🚀 Featured Research & Engineering Projects
 
-## Projects
-### [U-net Reconstruction with Knowledge Distillation](https://github.com/MMofidikhajeh/Unet_Reconstruction_Knowledge_Distillation)
-+	Developed a sophisticated U-Net architecture for simultaneous image reconstruction and segmentation using knowledge distillation
-+	Implemented composite loss function (MSE + feature distillation + fuzzy normalized cut loss) to improve performance
-+	Utilized pre-trained VGG11 as teacher model to guide learning process
-+	Achieved strong performance metrics: PSNR of 23.23 dB and SSIM of 0.859 on CIFAR-10 dataset, performing well considering the low epoch runtime of the model
-+	Technologies: PyTorch, U-Net, Knowledge Distillation, VGG11, Composite Loss Functions
+### 1. Semantic Vision Graphormer (SVG) | *Master's Thesis*
+**The Theory:** Standard ViTs treat images as unstructured 1D sequences, forcing the model to implicitly learn 2D topology. I modeled images natively as a dual-graph system (a fixed lattice graph for spatial topology, and a dynamic contextual graph for semantic similarity) and injected these biases directly into the self-attention logits.
+**The Engineering:** Implemented entirely from scratch in PyTorch. By keeping operations dense and compatible with `FlashAttention`, SVG adds **<1k parameters** and achieves **zero wall-clock latency overhead** while yielding a **4.01% accuracy gain** over ViT baselines. Discovered a layer-wise topological phase transition from texture grouping to semantic assembly.
+*   **First-author manuscript in preparation.**
+*   [🔗 View Code & Architecture](https://github.com/MMofidikhajeh/SVG)
 
-### [Deep Learning Foundations](https://github.com/MMofidikhajeh/Deep_Learning_Foundations)
-+	Implemented SVM/SVR as neural networks, and MLPs and CNNs from scratch on MNIST dataset.
-+	Developed and tested multiple MLP configurations on MNIST dataset, analyzing effects of hidden layers, neurons, and activation functions
-+	Built 2-layer CNN with pointwise convolution for efficient MNIST classification achieving 82% accuracy in 25 epochs
-+	Successfully implemented SVM and SVR as neural networks with 88% accuracy and 0.2233 MSE respectively
-+	Technologies: PyTorch, CNN, MLP, SVM/SVR, Neural Networks
+### 2. Label-Efficient Segmentation via DINOv2 Knowledge Distillation
+**The Theory:** Investigating how to transfer dense, self-supervised representations from massive foundation models into lightweight architectures for low-label regimes (e.g., medical imaging).
+**The Engineering:** Built a semi-supervised training framework distilling a frozen DINOv2 teacher into a ConvNeXt-Tiny U-Net student. Engineered controlled ablation pipelines across stratified partial-label budgets to evaluate IoU, Dice, and boundary sensitivity.
+*   [🔗 View Repository](https://github.com/MMofidikhajeh/label-efficient-segmentation)
 
-### [Classification with Confusion Analysis using UMAP](https://github.com/MMofidikhajeh/Confusion_Triplet_Umap)
-+	Built CNN classifiers with cross-entropy and triplet loss, achieving 84% accuracy on MNIST in 30 epochs.
-+	Performed comprehensive confusion matrix analysis to identify frequently confused digit pairs (classes 2 & 5)
-+	Implemented UMAP dimensionality reduction for visualizing feature embeddings and analyzing class separation
-+	Technologies: PyTorch, CNN, Triplet Loss, UMAP, Confusion Matrix Analysis
+### 3. Metric Learning for Out-of-Distribution (OOD) Detection
+**The Theory:** Shaping embedding geometries to reliably detect distribution shifts, anomalous samples, and unreliable predictions—critical for safe deployment in clinical or industrial settings.
+**The Engineering:** Developed a modular PyTorch evaluation framework benchmarking 5 scoring methods (MSP, Energy, Mahalanobis, kNN, prototype distance) against 4 representation learning objectives (Cross-Entropy, Triplet, Supervised Contrastive, Synthetic-Outlier). Integrated UMAP for embedding geometry visualization.
+*   [🔗 View Repository](https://github.com/MMofidikhajeh/ood-detection-metric-learning)
 
-### [Superstore Sales Data Analysis](https://github.com/MMofidikhajeh/Superstore_Analysis)
-+	Conducted full data cleaning, preprocessing, EDA, and clustering on 10k+ sales records.
-+	Used K-Means to segment customers into 3 key behavioral clusters, supporting targeted marketing.
-+	Developed data visualizations and insights to support targeted marketing strategies
-+	Technologies: Python, Pandas, Matplotlib, Scikit-Learn, K-means Clustering
+### 4. SaaS Customer Churn Analytics & Survival Modeling
+**The Theory:** Applying time-to-event modeling and predictive analytics to multivariate longitudinal data to understand subscriber retention and concept drift.
+**The Engineering:** End-to-end data pipeline handling messy, real-world tabular data, feature engineering, and survival analysis, demonstrating adaptability beyond computer vision into time-series and business logic.
+*   [🔗 View Repository](https://github.com/MMofidikhajeh/saas-customer-churn-analytics)
 
-### [Model Separability and Noisy Data Classification](https://github.com/MMofidikhajeh/LinSep_Noise_Classify_Test)
-+	Compared multiple models (Logistic Regression, Linear Regression(Lasso, Ridge),  SVM, Bayes, Naïve Bayes, Perceptron) across linearly separable and noisy datasets.
-+	Visualized decision boundaries and evaluated algorithm robustness to noise. 
-+	Provided insights into model selection based on data characteristics and noise levels
-+	Demonstrated systematic approach to algorithm evaluation and understanding of theoretical foundations
-+	Technologies: Python, Scikit-Learn, Classification Algorithms, Data Visualization
+### 5. Superstore Sales & Performance Analysis
+**The Theory:** Statistical analysis and data mining for actionable business intelligence.
+**The Engineering:** Clean data wrangling, exploratory data analysis (EDA), and visualization pipelines using Pandas and Seaborn.
+*   [🔗 View Repository](https://github.com/MMofidikhajeh/Superstore_Analysis)
+
+---
+
+## 🎓 Teaching & Technical Communication
+**Invited Technical Instructor | "Hands-On Large Language Models" Graduate Study Group**
+*Tarbiat Modares University | September 2026*
+Selected by the department head to lead the most mathematically rigorous sessions of a 4-week graduate reading group. 
+*   Synthesized complex mathematical concepts (self-attention mechanics, positional encodings, KV-caching) into accessible, first-principles frameworks.
+*   Conducted live PyTorch code walkthroughs and debugging sessions, bridging the gap between theoretical papers and practical implementation for my peers.
+
+---
+
+## 📬 Let's Collaborate
+**For PhD Admissions:** I am actively seeking PhD positions in Europe starting in early 2027, focusing on robust ML, representation learning, and clinical/spatio-temporal AI.
+**For Labs & Researchers:** I am available for part-time, freelance research engineering. If you have a mathematical formulation that needs to be turned into a robust PyTorch pipeline, let's talk.
+
+📧 **Email:** [mohammad.mofidi.k@gmail.com](mailto:mohammad.mofidi.k@gmail.com)  
+💼 **LinkedIn:** [linkedin.com/in/mohammad-mofidikhajeh](https://linkedin.com/in/mohammad-mofidikhajeh)  
+💻 **GitHub:** [github.com/MMofidikhajeh](https://github.com/MMofidikhajeh)  
+🌐 **Website:** [mmofidikhajeh.github.io](https://mmofidikhajeh.github.io/)
