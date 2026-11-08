@@ -2,7 +2,7 @@
 **AI Research Engineer | Deep Learning & PyTorch Specialist**  
 *Bridging the gap between mathematical theory and optimized, reproducible PyTorch code.*
 
-[GitHub](https://github.com/MMofidikhajeh) | [LinkedIn](https://linkedin.com/in/mohammad-mofidikhajeh) | [Email](mailto:mohammad.mofidi.k@gmail.com) | [Download CV](link-to-your-cv.pdf)
+[GitHub](https://github.com/MMofidikhajeh) | [LinkedIn](https://linkedin.com/in/mohammad-mofidikhajeh) | [Email](mailto:mohammad.mofidi.k@gmail.com) |
 
 ---
 
